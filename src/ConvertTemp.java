@@ -4,7 +4,6 @@ public class ConvertTemp {
     public static void main(String[] args) {
         // 顯示訊息
         java.util.Scanner sc = new java.util.Scanner(System.in);
-
         System.out.println("請輸入攝氏溫度");
         double C_Temp = sc.nextDouble();
 
