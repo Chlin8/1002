@@ -4,7 +4,7 @@ public class comput {
         // 顯示訊息
         java.util.Scanner sc = new java.util.Scanner(System.in);
 
-        System.out.println("兩個整數");
+        System.out.println("請輸入兩個整數:");
         int A = sc.nextInt();
         int B = sc.nextInt();
 
