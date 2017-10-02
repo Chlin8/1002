@@ -13,7 +13,7 @@ public class comput {
         int Mul = A*B;
 
 
-        System.out.println(Sum + " " + Sub + " " + Mul);
+        System.out.println(Sum + Sub +  Mul);
 
     }
 
