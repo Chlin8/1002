@@ -4,7 +4,6 @@ public class comput {
         // 顯示訊息
         java.util.Scanner sc = new java.util.Scanner(System.in);
 
-        System.out.println("請輸入兩個整數:");
         int A = sc.nextInt();
         int B = sc.nextInt();
 
@@ -13,7 +12,7 @@ public class comput {
         int Mul = A*B;
 
 
-        System.out.println(Sum + Sub +  Mul);
+        System.out.println(Sum + " " + Sub + " " + Mul);
 
     }
 
