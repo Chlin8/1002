@@ -5,5 +5,6 @@ public class ASCII {
 
         char ch = sc.next().charAt(0);
         System.out.println((int)ch);
+        System.out.println(Integer.toHexString(ch));
     }
 }
