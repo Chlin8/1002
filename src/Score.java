@@ -9,10 +9,10 @@ public class Score {
         double Score2= sc.nextDouble();
         double Score3= sc.nextDouble();
 
-        int Sum = Score1 + Score2 + Score3;
+        /*int Sum = Score1 + Score2 + Score3;
         double Avg = Sum / 3;
 
         System.out.println(Sum);
-        System.out.println(Avg);
+        System.out.println(Avg);*/
     }
 }
