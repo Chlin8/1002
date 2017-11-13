@@ -5,20 +5,17 @@ public class while_addOnetoTen {
 
         Integer i;
         Integer Sum=0;
-        double Avg;
+
+
         i=1;
-
-        while(i<=10)
+        while(Sum<500)
         {
-
             Sum = Sum + i;
             i++;
         }
 
-        Avg = Sum /10 ;
-
         System.out.println(Sum);
-        System.out.println(Avg);
+        System.out.println(i-1);
     }
 
 }
