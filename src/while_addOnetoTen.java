@@ -6,7 +6,6 @@ public class while_addOnetoTen {
         Integer i;
         Integer Sum=0;
 
-
         i=1;
         while(Sum<500)
         {
