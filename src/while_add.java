@@ -1,30 +1,29 @@
-public class while_addOnetoTen {
+public class while_add {
 
     public static void main(String[] args) {
         // 顯示訊息
         java.util.Scanner sc = new java.util.Scanner(System.in);
 
-        Integer i;
-        Integer Sum=0;
-        int num;
-
+        Integer i,num;
+        Integer sum=0;
         double avg;
 
         i=1;
         System.out.println("請輸入第" + i + "個數字");
         num = sc.nextInt();
 
-        while(num != 99999)
+        while(num !=99999)
         {
-            Sum = Sum + num;
+            sum = sum + num;
 
             i++;
             System.out.println("請輸入第" + i + "個數字");
             num = sc.nextInt();
         }
-        avg = Sum / (i-1);
-        System.out.println(Sum);
+
+        avg = sum / 10;
+
+        System.out.println(sum);
         System.out.println(avg);
     }
-
 }
