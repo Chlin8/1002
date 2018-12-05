@@ -6,22 +6,22 @@ public class shift_letter {
         String message = in.nextLine();
         int n = Integer.parseInt(in.nextLine());
         char str[] = message.toCharArray();
-
-        for(int i=0;i<str.length;i++)
+        int i;
+        for(i=0;i<str.length;i++)
         {
-            if(str[i]>'A' && str[i]<'Z')
+            if(str[i]>='A' && str[i]<='Z')
             {
                 str[i]=(char)(((str[i] - 'A')+n)%26+'A');
             }
             else
             {
-                if (str[i]>'a' && str[i]<'z')
+                if (str[i]>='a' && str[i]<='z')
                 {
                     str[i]=(char)(((str[i] - 'a')+n)%26+'a');
                 }
                 else
                 {
-                    if (str[i]>'0' && str[i]<'9')
+                    if (str[i]>='0' && str[i]<='9')
                     {
                         str[i]=(char)(((str[i] - '0')+n)%10+'0');
                     }
